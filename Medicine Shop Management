@@ -1,0 +1,42 @@
+ Online Medicine Shop Project in JSP Mysql. online Pharmacy  shop project in JSP Mysql Netbeans. This project is a web application which is developed in Java JSP Mysql 
+This project is to develop an online web portal that can handle product information, can booking from distributors very fast from all over the world and online payment for orders and customer support for distributors.
+Demonstrate Servlet and JSP:
+Showcase the use of Java Servlets for handling HTTP requests and managing user data.
+Utilize JavaServer Pages (JSP) for dynamic generation of HTML content.
+Highlight the interaction between the servlet and JSP components.
+Understand Basic Web Application Structure:
+Illustrate the basic structure of a Java web application.
+Emphasize the separation of concerns with servlets handling backend logic and JSP managing the presentation layer.
+Learning Tool:
+Serve as a learning tool for individuals looking to understand and practice basic web development concepts using Java and servlet technology.
+
+Concepts utilized:-
+
+The "User Management" web application project utilizes various web development concepts and technologies. Here are the key concepts demonstrated in the project:
+Java Servlets:
+Servlets are Java classes that handle HTTP requests and produce responses.
+In the project, the UserServlet class is responsible for managing user-related operations such as listing, adding, updating, and deleting users.
+JavaServer Pages (JSP):
+JSP allows embedding Java code directly within HTML pages, providing a way to dynamically generate web content.
+The index.jsp file is used for displaying the user interface. It dynamically generates HTML content based on data received from the servlet.
+Model-View-Controller (MVC) Design Pattern:
+The project follows a basic MVC pattern, where the servlet acts as the controller, JSP serves as the view, and the User and UserDAO classes represent the model.
+This separation of concerns helps in organizing and maintaining code.
+HTML Forms:
+HTML forms are used to collect user input for adding and updating user information.
+The forms send data to the servlet for processing.
+HTTP Methods (GET and POST):
+The project utilizes both GET and POST HTTP methods.
+GET is used to retrieve user information and display the initial page.
+POST is used to submit forms and perform actions such as adding, updating, or deleting users.
+Servlet Lifecycle:
+The init() method is used for servlet initialization, and doGet() and doPost() methods handle different types of HTTP requests.
+The destroy() method is called when the servlet is being taken out of service.
+Request and Response Objects:
+The servlet interacts with the HttpServletRequest and HttpServletResponse objects to obtain client data and send responses back.
+Servlet Container (Apache Tomcat):
+The project is intended to be deployed on a servlet container, such as Apache Tomcat, which manages the execution of servlets and JSP pages.
+Dynamic Content Generation:
+JSP is used for dynamically generating HTML content based on user data received from the servlet.
+HTML and CSS:
+Basic HTML and CSS are used for structuring the UI.
